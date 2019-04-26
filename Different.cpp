@@ -27,8 +27,8 @@ void Example02();
 // type NameF (..., type * name, int n, ...);
 void Fill(double *x, int n, double a = -12., double b = 23.);
 void Fill(int *x, int n, int a = -12, int b = 23);
-void Show(double *x, int n, char *t = "������ double x:\n");
-void Show(int *x, int n, char *t = "������ int:\n");
+void Show(double *x, int n, char *t = "Double array x:\n");
+void Show(int *x, int n, char *t = "Array int:\n");
 
 int Max(int *x, int n);
 void Sort(int *x, int n);
